@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    font-family: "avenirltstd-light", Sans-serif;
+}
+
+body {
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;  /* make scrollbar transparent */
+}
+
+/* Navbar */
+
+.collapse{
+    align-items: center;
+}
+
+.social-icons{
+    padding: 0% 9%;
+    display: flex;
+    margin-top: 3%;
+}
+
+.icon{
+    padding: 25% 25%;
+}
