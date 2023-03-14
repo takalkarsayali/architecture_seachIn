@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    font-family: "avenirltstd-light", Sans-serif;
+    /* font-family: "avenirltstd-light", Sans-serif; */
 }
 
 body {
@@ -38,7 +38,6 @@ body {
 .icon i:hover{    
     color: black;
     cursor: pointer;
-    text-shadow: 2px 0px 6px rgb(61, 61, 61);
 }
 
 /* Home Page */
@@ -64,11 +63,16 @@ h1 {
   
   .hero-title h1 {
     font-family: "Signika Negative", sans-serif !important;
+    font-size: 5rem;
   }
   
   .hero-title p {
+    text-shadow: 2px 0px 6px rgb(61, 61, 61);
     font-size: 1.5rem;
-    font-weight: 100;
+    font-weight: 700;
+  }
+  .hero-title p i {
+    font-weight: 200;
   }
   
   /* Hexagons */
@@ -203,4 +207,6 @@ h1 {
   
   .box:hover {
     flex: 1 1 20%;
-  } 
+  }
+  
+  
