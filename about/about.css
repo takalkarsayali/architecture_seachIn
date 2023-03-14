@@ -1,0 +1,84 @@
+
+*{
+    margin:auto;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.contact-page{
+    margin:0% 10%;
+}
+
+.content{
+    text-align: center;
+    text-align: left;
+    margin:0;
+    padding: 5rem 5rem !important;
+}
+.content h2{
+    font-weight:700;
+    font-size: 4rem;
+    margin-bottom:3rem;
+}
+
+.contact-page a{
+    text-decoration:none;
+    color:black;
+    font-size:1.5rem;
+    font-weight:600;
+    background-color:white;
+    padding: 1rem 2rem;
+    border:3px solid #f6870a;
+}
+.contact-page a:hover{
+    color:white;
+    background-color:#f6870a;
+}
+
+.image img{
+    width: 100%;
+}
+
+/* Responsive */
+@media (max-width:1000px){
+    .image img{
+        width:100%;
+    }
+    .content{
+        padding: 0 0 !important;
+        margin-bottom:4rem;
+    }
+}
+
+/* Features */
+.features{
+    padding: 7% 1%;
+}
+
+.feature{
+    padding:1rem 1.5rem !important;
+}
+
+.inter-row{
+    text-align: left;
+    align-self: end;
+}
+
+.title-no h1{
+    text-align:left;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size:5rem; 
+    font-weight:700;
+    color:#f6870a;
+}
+
+.title{
+    margin:auto !important;
+}
+
+.title h4{
+    font-family: 'Overpass', sans-serif;
+    font-weight:600;
+}
