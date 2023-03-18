@@ -1,0 +1,57 @@
+.architecture-page {
+    font-family: "avenirltstd-light", Sans-serif;
+    padding: 3% 5%;
+    text-align: center;
+}
+
+.architecture-img{
+    margin-top: 2rem;
+    margin-bottom: 2rem
+}
+
+.architecture-page a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    text-align: center;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.architecture-page .img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.architecture-page img {
+    width: 100%;
+    height: 100%;
+}
+
+.location a{
+    color: white;
+    vertical-align: -12rem;
+}
+.location a:hover{
+    color: white;
+}
+
+.architecture-page .location {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align:center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    visibility: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.architecture-page .img:hover .location{
+    visibility: visible;
+    opacity: 1;
+}
+
