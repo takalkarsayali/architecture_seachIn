@@ -6,7 +6,7 @@ body {
   /* width: 100%; */
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: "avenirltstd-light", Sans-serif; 
+  font-family: "avenirltstd-light", Sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -14,8 +14,8 @@ body {
   background: transparent; /* make scrollbar transparent */
 }
 
-.landing{
-  background-color: #F1F6F9;
+.landing {
+  background-color: #f1f6f9;
   padding: 4% 3%;
   border-radius: 2%;
   border: 1px solid white;
@@ -50,16 +50,16 @@ body {
   text-align: left;
 }
 
-.text1{
+.text1 {
   background-color: black;
   height: 10rem;
   width: 10rem;
   display: flex;
   text-align: center;
-  align-items:center;
+  align-items: center;
   border-radius: 50%;
-  color:white;
-  flex-direction:column;
+  color: white;
+  flex-direction: column;
   padding: 3rem 3rem;
   margin-left: 15rem;
   box-shadow: 0 20px 30px 0 rgb(9 78 130 / 20%);
@@ -68,24 +68,32 @@ body {
 .text2 {
   background-color: black;
   height: 25rem;
-  width:25rem;
+  width: 25rem;
   display: flex;
   text-align: center;
-  align-items:center;
+  align-items: center;
   border-radius: 50%;
-  color:white;
-  flex-direction:column;
+  color: white;
+  flex-direction: column;
   padding: 4rem 2rem;
   box-shadow: 0 20px 30px 0 rgb(9 78 130 / 20%);
 }
 
-.text2 p{
-  font-size: 1.5rem
+.text2 p {
+  font-size: 1.5rem;
 }
 
-.img1 img{
+.img1 img {
   width: 30rem;
   border-radius: 2%;
   box-shadow: 0 20px 30px 0 rgb(9 78 130 / 20%);
 }
 
+@media (max-width: 1500px) {
+  .img1 img {
+    width: 100%;
+  }
+  .img1 {
+    margin-bottom: 4rem;
+  }
+}
